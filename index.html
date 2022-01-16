@@ -15,12 +15,12 @@
     
     <header class="py-6">
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <div class="text-lg font-bold">Jonathan.doe</div>
+            <div class="text-lg font-bold">Athfan Fasee</div>
             <div class="hidden md:flex space-x-12 items-center">
                 <a href="#" class="text-selected-text">Home</a>
-                <a href="#work">My work</a>
-                <a href="#clients">Clients</a>
-                <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire me</button></a>
+                <a href="#work">Main Projects</a>
+                <a href="#clients">Side Projects</a>
+                <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Contact Me</button></a>
             </div>
             <div class="md:hidden">
                 <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
@@ -38,19 +38,19 @@
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
                     </a>
                     <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">MainProjects</span>
                     </a>
                     <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">SideProjects</span>
                     </a>
                     <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
                     </a>
                 </div>
             </nav>
 
             <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br> beautiful web experiences.</h1>
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Front-End<br> Developer, into Back-End</h1>
                 <div class="w-full flex justify-center md:justify-start">
                     <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
                         <div>
@@ -59,7 +59,7 @@
                                 <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
                             </svg>								
                         </div>
-                        <span>View my work.</span>
+                        <span>View my Projects</span>
                     </button>
                 </div>
             </div>
@@ -70,7 +70,7 @@
 		<!-- My work -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="work" class="secondary-title">My work</h2>
+				<h2 id="work" class="secondary-title">Main Projects</h2>
 				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
 
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
@@ -93,7 +93,7 @@
 		<!-- Clients -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="clients" class="secondary-title">Clients</h2>
+				<h2 id="clients" class="secondary-title">Side Projects</h2>
 				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
 
 				<!-- Clients -->
@@ -170,10 +170,12 @@
 				<h2 id="hire" class="secondary-title">Hire me</h2>
 				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
 
-				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-					<div class="space-y-12">
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24 ">
+
+					<form class="space-y-12 ">
+						<input type="hidden" name="_captcha" value="false">
 						<div>
-							<label class="text-white block mb-6 text-xl font-bold">Name</label>
+							<label class="text-green block mb-6 text-xl font-bold">Name</label>
 							<input class="w-full border border-input-border bg-input px-4 py-4">
 						</div>
 						<div>
@@ -182,12 +184,12 @@
 						</div>
 						<div>
 							<label class="text-white block mb-6 text-xl font-bold">Message</label>
-							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+							<textarea type="text" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
 						</div>
-						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
-					</div>
+						<button type="submit" class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+					</form>
 
-					<div class="mt-12">
+					<div class="mt-12" action="https://formsubmit.co/aththaar47@gmail.com" method="POST">
 						<!-- Contact info -->
 						<p class="text-secondary">555-555-1234</p>
 						<a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">email@mydomain.com</a>
