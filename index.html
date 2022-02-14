@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
             <div class="hidden md:flex space-x-12 items-center">
                 <a href="#" class="text-selected-text">Home</a>
                 <a class="hover:text-purple-500" href="#work">Main Projects</a>
-                <a class="hover:text-purple-500" href="#clients">Side Projects</a>
+                <a class="hover:text-purple-500" href="#Projects">Side Projects</a>
                 <a class="hover:text-purple-500" href="#about">About Me</a>
                 <a class="hover:text-black" href="#hire"><button class="text-sm lg:text-base px-6 py-2 bg-theme font-bold">Contact</button></a>
             </div>
@@ -45,7 +46,7 @@
 		<div class="mobile-menu hidden md:hidden">
 			<a class="block pt-4 pb-2 px-4 text-sm text-selected-text" href="#" class="text-selected-text">Home</a>
 			<a class="block py-2 px-4 text-sm hover:text-purple-500"  href="#work">Main Projects</a>
-			<a class="block py-2 px-4 text-sm hover:text-purple-500"  href="#clients">Side Projects</a>
+			<a class="block py-2 px-4 text-sm hover:text-purple-500"  href="#Projects">Side Projects</a>
 			<a class="block py-2 px-4 text-sm hover:text-purple-500"  href="#about">About Me</a>
 			<a class="block py-2 px-4 text-sm hover:text-purple-500 font-bold"  href="#hire"><button>Contact</button></a>
 		</div>
@@ -64,7 +65,7 @@
                     <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">MainProjects</span>
                     </a>
-                    <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                    <a href="#Projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">SideProjects</span>
                     </a>
                     <a href="#about" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
@@ -77,7 +78,7 @@
             </nav>
 
             <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Front-End<br> Developer, into Back-End</h1>
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Creating<br> Meaningful, Web Apps</h1>
                 <div class="w-full flex justify-center md:justify-start">
                     <a href="#work"><button  class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
                         <div>
@@ -98,67 +99,76 @@
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
 				<h2 id="work" class="secondary-title">Main Projects</h2>
-				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+				<p class="section-paragraph">All of my Projects are Well Written with Clean Readable Code and Proper Folder Structures. I have written Tests for most of them as well which you can check in GitHub. They are also Optimized for Faster Perfomance and Errors are properly handled. Also they have Responsive added as needed.</p> </p>
 
-				<!-- Clients -->
+				<!-- Projects -->
 				<div class="space-y-12 my-16">
-					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+					<div class="w-full border border-nav p-5  lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
-						<!-- Client logo -->
+						<!-- Project logo -->
 						<div class="mb-6 lg:mb-0">
 							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
 						</div>
 
-						<!-- Client info -->
+						<!-- Project info -->
 						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<h3 class="text-white text-3xl font-semibold">Blog Posts Site</h3>
 
 							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-								<div class="badge">UI/UX</div>
-								<div class="badge">Frontend development</div>
+								<div class="badge"><a href="https://github.com/AthfanFasee/Blog-Post-FrontEnd" target="_blank">Code(Front-End)</a></div>
+								<div class="badge"><a href="https://github.com/AthfanFasee/Blog-Post-BackEnd" target="_blank">Code(Back-End)</a></div>
+								<div class="badge"><a href="https://blog-post-front-end-1599.vercel.app/" target="_blank">Live Version</a></div>
 							</div>
 
-							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+							<p class="text-secondary">A Blog Post Site where you can Create, Edit and Delete your own blogs as needed. I have created my own REST APIs for this site using NodeJS(Express) and used MongoDB as Database. This site has multiple sorting options and pagination. You can also like a post or add comments and they are updated in real time. All the Errors are properly handled at Back-End and properly displayed at Front-End in User Friendly manner.
+								I used JWT tokens for authentication and mutiple security packages like helmet to prevent numerous possible attacks and xss-clean to filter user inputs and prevent cross-site scripting attacks. I have used Material UI in needed places to make the Front-End looks solid. And finally I have written Tests for both Front-End and Back-End completely and also Fully Responsive. <br><br>
+								<p>Tools Used  :  JavaScript,React, MUI, Sass(Css), NodeJS, Express, Axios, MongoDB, Jest, Helmet</p>
+							</p>
 						</div>
 
 					</div>
-					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+					<div class="w-full border border-nav p-5 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
-						<!-- Client logo -->
+						<!-- Project logo -->
 						<div class="mb-6 lg:mb-0">
 							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
 						</div>
 
-						<!-- Client info -->
+						<!-- Project info -->
 						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<h3 class="text-white text-3xl font-semibold">What's App Clone</h3>
 
 							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-								<div class="badge">UI/UX</div>
-								<div class="badge">Frontend development</div>
+								<div class="badge"><a href="https://github.com/AthfanFasee/What-s-App-Clone" target="_blank">Code</a></div>
+								<div class="badge"><a href="https://what-s-app-clone-git-main-athfanfasee.vercel.app/" target="_blank">Live Version</a></div>
 							</div>
 
-							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+							<p class="text-secondary">A Serverless Chat App with live chat updates and SSR. Means when entering someone's chat the chats will be already available there instead of client side rendering which makes the app so smooth. I have used Firebase as my cloud BaaS and Firebase Google Authentication as a way for users to SignIn. And used Material UI as needed to make the Front-End looks Solid. And finally this app is fully Test written. This app is a clone of only the desktop version of What's App, so no responsive added to it!
+								<br><br><p>Tools Used  :  JavaScript, React, NextJS(12), FireBase(9), MUI, Styled-Components, Jest</p>
+							</p>
 						</div>
 
 					</div>
-					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+					<div class="w-full border border-nav p-5 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
-						<!-- Client logo -->
+						<!-- Project logo -->
 						<div class="mb-6 lg:mb-0">
 							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
 						</div>
 
-						<!-- Client info -->
+						<!-- Project info -->
 						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<h3 class="text-white text-3xl font-semibold">Math Villa</h3>
 
 							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-								<div class="badge">UI/UX</div>
-								<div class="badge">Frontend development</div>
+								<div class="badge"><a href="https://github.com/AthfanFasee/Maths-Villa" target="_blank">Code</a></div>
+								<div class="badge"><a href="https://maths-villa-99.vercel.app/" target="_blank">Live Version</a></div>
 							</div>
 
-							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+							<p class="text-secondary">A Site where you can do multiple Maths Calculations Very easily in a user friendly manner and Can get multiple Maths Equations as needed. You can access the calculation you want to do using the Navbar I created using bootstrap with mutiple options in it. I made this Site Originally to help my cousins with their Public exam and to save their time as they dont have to figure out answers on their own and no need to go to multiple website to access mutiple Maths Equations.
+								I didn't use any outternal Math Libraries for this project. This site is fully Responsive.<br><br>
+								<p>Tools Used  :  JavaScript, React, Bootstrap(5)</p>
+							</p>
 						</div>
 
 					</div>
@@ -173,68 +183,68 @@
 		<!-- Side Projects -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="clients" class="secondary-title">Side Projects</h2>
-				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+				<h2 id="Projects" class="secondary-title">Side Projects</h2>
+				<p class="section-paragraph">I have made these Simple Projects while studying various of Concepts</p>
 
-				<!-- Clients -->
+				<!-- Projects -->
 				<div class="space-y-12 my-16">
 					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
-						<!-- Client logo -->
+						<!-- Project logo -->
 						<div class="mb-6 lg:mb-0">
 							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
 						</div>
 
-						<!-- Client info -->
+						<!-- Project info -->
 						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<h3 class="text-white text-3xl font-semibold">Search Bar with Books Api</h3>
 
 							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-								<div class="badge">UI/UX</div>
-								<div class="badge">Frontend development</div>
+								<div class="badge"><a href="http://" target="_blank">Code</a></div>
+								<div class="badge"><a href="http://" target="_blank">Live Demo</a></div>
 							</div>
 
-							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+							<p class="text-secondary">I have made an Api call to a public Books API and added a search bar where users can search and find the book they need. When they click on the book it will take them to it's Wikipedia page. I made this project to train handling Public API data and Search Bar Logics</p>
 						</div>
 
 					</div>
 					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
-						<!-- Client logo -->
-						<div class="mb-6 lg:mb-0">
-							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
+						<!-- Project logo -->
+						<div class="mb-6 lg:mb-0 w-25 lg:w-20" >
+							<img src="img/Cookie.jpg" class="rounded-full" />
 						</div>
 
-						<!-- Client info -->
+						<!-- Project info -->
 						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<h3 class="text-white text-3xl font-semibold">Cookies For All!</h3>
 
 							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-								<div class="badge">UI/UX</div>
-								<div class="badge">Frontend development</div>
+								<div class="badge"><a href="https://github.com/AthfanFasee/Cookies-Site" target="_blank">Code</a></div>
+								<div class="badge"><a href="https://cookies-site.vercel.app/" target="_blank">Live Demo</a></div>
 							</div>
 
-							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+							<p class="text-secondary">A Site I made using only vnilla JS where users can do CRUD functionality to Cookies in real time!</p>
 						</div>
 
 					</div>
 					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
-						<!-- Client logo -->
+						<!-- Project logo -->
 						<div class="mb-6 lg:mb-0">
 							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
 						</div>
 
-						<!-- Client info -->
+						<!-- Project info -->
 						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<h3 class="text-white text-3xl font-semibold">Form made with TypeScript and Class Components</h3>
 
 							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-								<div class="badge">UI/UX</div>
-								<div class="badge">Frontend development</div>
+								<div class="badge"><a href="http://" target="_blank">Code</a></div>
+								<div class="badge"><a href="http://" target="_blank">Live Demo</a></div>
 							</div>
 
-							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+							<p class="text-secondary">I have made this simple site to learn React class components and formik library and TypeScript</p>
 						</div>
 
 					</div>
@@ -248,8 +258,8 @@
 		<!-- About Me -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="about" class="secondary-title">About Me</h2>
-				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+				<h2 id="about" class="secondary-title">About Me and My Other Skills</h2>
+				<p class="section-paragraph"></p>
 		</div>
 
 
@@ -297,6 +307,13 @@
 					</div>
 					
 				</div>
+
+				<!-- About Me -->
+		<div class="">
+			<section class="">
+				<h2 id="" class="">About Me and My Other Skills</h2>
+				<p class=""></p>
+		</div>
 
 			</section>
 		</div>
