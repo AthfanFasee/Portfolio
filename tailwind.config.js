@@ -23,9 +23,9 @@ module.exports = {
     './pages/**/*.{html,js}',
     './components/**/*.{html,js}',
   ],
-  plugins: [
-    "postcss-import",
-    "tailwindcss",
-    "autoprefixer"
-  ]
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
+  }
 }
