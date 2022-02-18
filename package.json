@@ -4,6 +4,9 @@
   "description": "",
   "main": "tailwind.config.js",
   "keywords": [],
+  "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
+  },
   "author": "",
   "license": "ISC"
 }
