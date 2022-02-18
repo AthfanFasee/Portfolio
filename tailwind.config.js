@@ -1,6 +1,4 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -21,5 +19,13 @@ module.exports = {
   variants: {
     extend: {},
   },
-
+  content: [
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+  ],
+  plugins: [
+    "postcss-import",
+    "tailwindcss",
+    "autoprefixer"
+  ]
 }
